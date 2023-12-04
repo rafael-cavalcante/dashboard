@@ -1,7 +1,8 @@
 #Impotações Nescessarias
-from dash import Dash, dcc, html, Input, Output
 import pandas as pd
 import plotly.express as px
+
+from dash import Dash, dcc, html, Input, Output
 
 #Importando os dados para o dataframe
 dataset = pd.read_csv("acidentes2023_todas_causas_tipos.csv")
@@ -28,7 +29,6 @@ horario_column = horarios_ordenados = sorted(dataset["horario"], key=lambda x: t
 #
 dataset_uf = dataset["uf"].unique()
 
-#
 #dataset_periodo_acidentes = dataset.sort_values(by=["horario"])
 
 dataset_periodo_acidentes  = dataset.groupby("dia_semana")["horario"].value_counts().sort_values(ascending=True)
@@ -103,3 +103,5 @@ def update_municipio(value):
 
 if __name__ == "__main__":
     app.run_server(debug=True)
+
+# Comentário de multiplas linhas  """ ... """
