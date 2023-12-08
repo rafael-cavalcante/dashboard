@@ -17,6 +17,8 @@ pip install pandas
 pip install plotly
 
 pip install streamlit
+
+pip install missingno
 ```
 
 ## Screenshot
