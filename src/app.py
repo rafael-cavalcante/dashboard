@@ -5,7 +5,7 @@ import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
 
 #Importando os dados para o dataframe
-dataset = pd.read_csv("acidentes2023_todas_causas_tipos.csv")
+dataset = pd.read_csv("../dataset/acidentes2023_todas_causas_tipos.csv")
 
 #Trabalhando os dados grafico 1
 dataset_genero = dataset["sexo"].value_counts()

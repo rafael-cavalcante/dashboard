@@ -18,6 +18,8 @@ pip install plotly
 
 pip install streamlit
 
+pip install st-pages
+
 pip install missingno
 ```
 
