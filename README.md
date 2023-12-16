@@ -30,6 +30,6 @@ streamlit run 1_app.py
 ```
 
 ## Screenshot
-<img src="screenshots/dashmob_1.png" alt="sample dark" width="300"/>&nbsp;
-<img src="screenshots/dashmob_2.png" alt="sample dark" width="300"/>&nbsp;
-<img src="screenshots/dashmob_3.png" alt="sample light" width="300"/>
+<img src="screenshots/dashmob_1.png" alt="sample dark" width="400"/>&nbsp;
+<img src="screenshots/dashmob_2.png" alt="sample dark" width="400"/>&nbsp;
+<img src="screenshots/dashmob_3.png" alt="sample light" width="400"/>
