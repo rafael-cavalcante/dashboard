@@ -1,5 +1,3 @@
 pandas
 streamlit
 plotly
-json
-# Adicione outras dependências conforme necessário
