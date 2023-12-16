@@ -18,9 +18,15 @@ pip install plotly
 
 pip install streamlit
 
-pip install st-pages
-
 pip install missingno
+```
+
+## Executar o projeto
+
+``` bash
+
+streamlit run 1_app.py
+
 ```
 
 ## Screenshot
