@@ -1,3 +1,4 @@
-pandas==23.3.1
-
-plotly==5.18.0
+pandas
+streamlit
+plotly
+# Adicione outras dependências conforme necessário
