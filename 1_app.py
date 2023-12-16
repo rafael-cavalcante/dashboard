@@ -15,7 +15,11 @@ df = st.session_state["dataset"]
     
 df2 = df.copy() 
 
-geojson_estados = jn.load(open("database/uf.json"))
+try:
+    with open("database/uf.json") as f:
+        geojson_estados = jn.load(f)
+except Exception as e:
+    print(f"Erro ao carregar o arquivo JSON: {e}")
 
 geojson_municipios = jn.load(open("database/municipio.json"))
 
