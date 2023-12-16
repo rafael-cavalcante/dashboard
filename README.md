@@ -30,5 +30,6 @@ streamlit run 1_app.py
 ```
 
 ## Screenshot
-<img src="https://github.com/DJ-Raven/swing-glasspane-popup/blob/main/screenshot/sample%20dark.png" alt="sample dark" width="400"/>&nbsp;
-<img src="https://github.com/DJ-Raven/swing-glasspane-popup/blob/main/screenshot/sample%20light.png" alt="sample light" width="400"/>
+<img src="screenshots/dashmob_1.png" alt="sample dark" width="300"/>&nbsp;
+<img src="screenshots/dashmob_2.png" alt="sample dark" width="300"/>&nbsp;
+<img src="screenshots/dashmob_3.png" alt="sample light" width="300"/>
