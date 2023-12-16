@@ -208,12 +208,12 @@ with tab1:
 
     col_segunda, col_terca, col_quarta, col_quinta, col_sexta, col_sabado, col_domingo = st.columns([0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.4])
     col_segunda.metric("Segunda-Feira", round(df_acidentes_semana["total"][0]), delta="0%", delta_color="off")
-    col_terca.metric("Terça-Feira", round(df_acidentes_semana["total"][1]), f"{round(df_acidentes_semana["estatistica"][1])}%")
-    col_quarta.metric("Quarta-Feira", round(df_acidentes_semana["total"][2]), f"{round(df_acidentes_semana["estatistica"][2])}%")
-    col_quinta.metric("Quinta-Feira", round(df_acidentes_semana["total"][3]), f"{round(df_acidentes_semana["estatistica"][3])}%")
-    col_sexta.metric("Sexta-Feira", round(df_acidentes_semana["total"][4]), f"{round(df_acidentes_semana["estatistica"][4])}%")
-    col_sabado.metric("Sábado", round(df_acidentes_semana["total"][5]), f"{round(df_acidentes_semana["estatistica"][5])}%")
-    col_domingo.metric("Domingo", round(df_acidentes_semana["total"][6]), f"{round(df_acidentes_semana["estatistica"][6])}%")
+    col_terca.metric("Terça-Feira", round(df_acidentes_semana["total"][1]), f"{round(df_acidentes_semana['estatistica'][1])}%")
+    col_quarta.metric("Quarta-Feira", round(df_acidentes_semana["total"][2]), f"{round(df_acidentes_semana['estatistica'][2])}%")
+    col_quinta.metric("Quinta-Feira", round(df_acidentes_semana["total"][3]), f"{round(df_acidentes_semana['estatistica'][3])}%")
+    col_sexta.metric("Sexta-Feira", round(df_acidentes_semana["total"][4]), f"{round(df_acidentes_semana['estatistica'][4])}%")
+    col_sabado.metric("Sábado", round(df_acidentes_semana["total"][5]), f"{round(df_acidentes_semana['estatistica'][5])}%")
+    col_domingo.metric("Domingo", round(df_acidentes_semana["total"][6]), f"{round(df_acidentes_semana['estatistica'][6])}%")
 
     st.plotly_chart(fig_acidentes_semana, use_container_width=True)
 with tab2:
