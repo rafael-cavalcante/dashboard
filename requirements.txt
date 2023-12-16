@@ -1,3 +1,3 @@
-pip install pandas
+pandas==23.3.1
 
-pip install plotly
+plotly==5.18.0
