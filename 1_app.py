@@ -15,10 +15,10 @@ df = st.session_state["dataset"]
     
 df2 = df.copy() 
 
-with open("database/uf.json", "r", encoding="utf-8") as f:
+with open("database/uf.json", encoding="latin-1") as f:
     geojson_estados = jn.load(f)
     
-with open("database/municipio.json", "r", encoding="utf-8") as f:
+with open("database/municipio.json", encoding="latin-1") as f:
     geojson_municipios = jn.load(f)
 
 st.title("📊 DashMobv2 Acidentes Rodoviarios PRF - 2023")
